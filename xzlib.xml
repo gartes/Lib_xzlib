@@ -10,7 +10,6 @@
     <authorUrl></authorUrl>
     <version>1.0.8</version>
     <description>Library XZLib by Gartes</description>
-
     <files>
         <folder>app</folder>
         <folder>language</folder>
