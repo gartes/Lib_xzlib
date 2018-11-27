@@ -1,0 +1,244 @@
+.detail-add-review-stars-i {
+    float: left
+}
+.detail-add-review-rating {
+    margin: .38462em 0 1.15385em;
+}
+.pp-comments-review-star-wrap {
+    width: 26em;
+    margin: -5px auto 3em;
+    max-width: 100%;
+}
+.detail-add-review-stars {
+    display: inline-block;
+    margin-right: .76923em;
+    vertical-align: middle;
+    width: 100%;
+}
+.pp-comments-review-star-big {
+    color: #999;
+    font-size: .8em;
+    position: relative;
+    background-origin: content-box;
+    padding: 0 1.2em;
+    cursor: pointer;
+}
+.detail-add-review-stars-i,.detail-review-f-disabled .detail-add-review-stars-i:active,.g-rating-stars-large-disabled {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAlCAMAAAD2tQAMAAAAn1BMVEUAAADX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szX1szt7Obg39fj49vn5+Di4dna2dDr6+Tl5d3c29Lp6eLe3dS++5T2AAAAKnRSTlMABDodCvpdLP3k3yT08MW8kHtuSevMs6OaioVlFQ/W08Gqf3RQMhPInhhq2mD3AAABR0lEQVQ4y42U13aDMBBEKaEaDAb33pPsSoj2/98WxwYSe2XgPnLuATEzoEjQNkovJotemomG3kP7cDmb9fBOCGBfOrW1nwKwoNMLE7hRxh3awIBf+E5t9w4M7uCqVdNseFA4H23eMIMKHLUcboRQk3rxNzVUywz3vkhSaOClcKbL86DJX4vmE0Mg4/BKylkp/GBhWqqiBvmLQmUUp9v9PhPoAO8D2uw6RJxXlbqsVTvU3ehOi4jTvwqt8Vsx2f8v5uJnb7TJ5rlYT5oN266VZ2KjkGgu/VIipJ4YKISVzNOpt2TUyzXqzTLqoSmZKJekIhmrk1Ivm9Ol2kDhAd28aEKz8/qohUu8OH+sMvFCXZva1csbqjS+AsfH630YXwarAqTxcXSjZhx66CWpJMBZVm7Np6dcj2OkAQ6HZ/orjBwSoKXIUOvLP9bIZSVzqbFtAAAAAElFTkSuQmCC)!important;
+    background-repeat: no-repeat;
+    width: 69px;
+    height: 37px;
+    width: 20%;
+}
+
+.detail-add-review-stars-i.active,.g-rating-stars-large {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAlCAMAAAD2tQAMAAAArlBMVEUAAAD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/oRD/rhz/qBb/tCL/mQj/tiT/oQ//uCb/uyj/sSD/qxj/pRP/nQv/mwr/nw3/oxH/xDD/vyz/lgb/yTX/lQT/kwP/sR+puNxeAAAAJHRSTlMABvo6Cu7EXSYc8+R9FNXLvKKQbi3grJuKhXVlSh8P3LVQMkVTZ/lvAAABXUlEQVQ4y43UaZNDQBCAYUcQRxDkvrNmYghDBNn//8dWbNhNteD5lEq9pVR3F6YFv2cGMZaDMumb2w3IRrO7Nx3QrXGek3NvNhHSPPfN3s7CeSnc9mRjLn0KdLa7m+O04m46M56kvwJ11NWJ+P7iah0vt3bvtUDZyrBgHckSlcj1gwZGN/W4Ou2a+fP2wuCi0MV11PCxiyLBXEoOy7DmM/H8j7xrGa/L5xmh1yOsDmivh7gTWrxWegivHdC83s1ORe5H6Mj+DU5AHzPx/2LOAgpbRcb+fbEKahPpE+bdlotashncnX2LADJmgA25AUSG3Yq04GE3JQlAJNiJCQUSDXYqjQG6gJdKLlBswptvOsolcf37ALqvJKtQxZL5OYmzCgfHR4uiyKigVYtyplyclX/AAa4uj4zO7OY4ZEuJi0fCg/FlVJfYty+SJsRUAuMTT/BTaKtggA7Thq0P4Qca82XmNiOWNAAAAABJRU5ErkJggg==)!important;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 37px;
+}
+.pp-comments-review-star-big:hover {
+    color: #1d1f21;
+}
+.pp-comments-review-star-big:before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+}
+.pp-comments-review-star-big.bad:before {
+    content: attr(data-bad);
+}
+
+.pp-comments-review-star-big.not-nice:before {
+    content: attr(data-not-nice)
+}
+
+.pp-comments-review-star-big.normal:before {
+    content: attr(data-normal);
+    left: 0
+}
+
+.pp-comments-review-star-big.nice:before {
+    content: attr(data-nice)
+}
+
+.pp-comments-review-star-big.awesome:before {
+    content: attr(data-awesome);
+    left: 8px
+}
+.reviews-block{
+    float: left;
+    width: 100%;
+}
+#reviews-tabs{
+    float: left;
+    width: 370px;
+    max-width: 100%;
+}
+
+
+#reviews-tabs ul {
+    list-style: none;
+    /* float: left; */
+    -webkit-padding-start: 0px;
+    margin: 0;
+    background: #f6f6f6;
+}
+#reviews-tabs ul li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 0px;
+    margin: 10px 0;
+}
+#reviews-tabs ul li:not(.active){
+    cursor: pointer;
+}
+.detail-add-review-tabs-i {
+    position: relative;
+    height: 25px;
+    border-bottom: 1px solid #ececec;
+
+    text-align: center;
+    white-space: nowrap;
+}
+.detail-add-review-tabs-i.active {border-bottom: 3px solid #fdd933;}
+.reviews_form {
+    width: 370px;
+    background: #f6f6f6;
+    float: left;
+    padding: 10px 10px;
+    max-width: 100%;
+}
+
+.reviews-block .clearfix.f-i {
+    float: left;
+    max-width: 100%;
+}
+
+.reviews-block h3 {
+    text-align: center;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+.rivTabs div#comments-form-link,
+.coment_comment form#comments-form,
+.coment_comment .jcdiv,
+.productdetails-view #jc #comments .comments-list .rbox .comment-author:before{
+    display: none;
+}
+.reviews- {}
+.rivTabs {
+    width: 100%;
+    float: left;
+}
+.reviews-block div.control-group {
+    float: left;
+    width: 100%;
+}
+
+
+.coment_comment {
+    float: left;
+    width: 65%;
+}
+.coment_comment .comments-list{}
+.productdetails-view #jc #comments .comments-list .comments-list{
+    margin-left: 50px;
+}
+.g-rating-b {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0em;
+    color: #999;
+}
+
+.g-rating-stars, .g-rating-stars-i {
+    display: inline-block;
+    background-position: -296px -442px;
+    width: 71px;
+    height: 14px;
+}
+
+.g-rating-stars {
+    margin-right: 3px;
+    vertical-align: -1px;
+    overflow: hidden;
+}
+.g-rating-stars-i {
+    background-position: -222px -443px;
+    width: 71px;
+    height: 14px;
+}
+
+/*article:empty, aside:empty, div:empty, footer:empty, header:empty, section:empty, span:empty {
+    border: 0!important;
+    margin: 0!important;
+    padding: 0!important;
+}*/
+
+#repl_comment{
+    width: 300px;
+}
+
+@media (max-width: 1199px){
+    .comentForm{width: 41%;}
+    .coment_comment{width: 59%;}
+}
+@media (max-width: 991px){
+    .comentForm{width: 52%;}
+    .coment_comment{width: 48%;}
+}
+@media (max-width: 750px){
+    .comentForm{width: 100%;}
+    .coment_comment{width: 100%;}
+    .reviews_form{
+
+    }
+    #reviews-tabs{
+        font-size: 10px;
+    }
+    .pp-comments-review-star-big{
+        /* padding: 0 0px; */
+        width: 20%;
+        font-size: 9px;
+    }
+
+    .detail-add-review-stars {
+        width: 100%;
+        /* margin: 0 -10px; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

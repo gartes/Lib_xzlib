@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="3.0">
+    <name>XZLib</name>
+    <libraryname>xzlib</libraryname>
+    <author>Gartes</author>
+    <creationDate>27.11.2018</creationDate>
+    <copyright>2018 (C) Gartes</copyright>
+    <license>GNU/GPLv3</license>
+    <authorEmail>sad.net79@gmail.com</authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.8</version>
+    <description>Library XZLib by Gartes</description>
+
+    <files>
+        <folder>app</folder>
+        <folder>language</folder>
+        <folder>vendor</folder>
+
+    	<file>composer.json</file>
+    	<file>xzlib.php</file>
+    	<file>xzlib.xml</file>
+    	<file>xzlib_app.php</file>
+    	<file>index.html</file>
+    </files>
+</extension>

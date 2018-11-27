@@ -1,0 +1,12 @@
+{
+    "name": "root/xzlib",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload" :{
+            "psr-4":{
+                "xzlib\\": ""
+            }
+    }
+}

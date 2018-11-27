@@ -1,0 +1,38 @@
+form.form-oneClick {
+    max-width: 300px;
+}
+
+form.form-oneClick #headLt {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+form.form-oneClick textarea,
+form.form-oneClick input {
+    width: 100%;
+}
+form.form-oneClick [type="checkbox"]{
+    width: auto;
+}
+#oneClick_customer_note{
+    min-height: 60px;
+}
+form.form-oneClick .control-label{
+    font-size: 12px;
+}
+form.form-oneClick h4 {
+    text-align: center;
+}
+
+form.form-oneClick button{
+    float: right;
+}
+
+label[for=tos] {
+    font-size: 12px;
+}
+
+label[for=tos] a {
+    text-decoration: underline;
+}

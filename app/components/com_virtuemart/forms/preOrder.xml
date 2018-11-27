@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset name="preOrder">
+        <fields name="preOrder">
+            <field name="last_name" type="text" label="Имя" required="true" size="30" />
+            <field name="email" type="email" label="Эл.почта" required="true" validate="email" size="30" />
+            <field name="phone_1" type="tel" hint="+7 900 111 22 33" label="Телефон" required="true" size="30" />
+
+            <field name="customer_note" type="textarea" hint="Текст вашего комментария" label="Комментарий к заказу" description=""  rows="10" cols="5" />
+
+        </fields>
+    </fieldset>
+
+</form>

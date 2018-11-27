@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "aade962bb05b67af8c882d58e574bb85",
+    "packages": [
+        {
+            "name": "serj1chen/nova-poshta-sdk-php",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/serj1chen/nova-poshta-sdk-php.git",
+                "reference": "ee9b7fe8c5ceaf2e6996f37ee4613590f6facc55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/serj1chen/nova-poshta-sdk-php/zipball/ee9b7fe8c5ceaf2e6996f37ee4613590f6facc55",
+                "reference": "ee9b7fe8c5ceaf2e6996f37ee4613590f6facc55",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NovaPoshta\\": "lib/NovaPoshta"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chenakal Sergii",
+                    "email": "s.chenakal@gmail.com",
+                    "homepage": "https://github.com/serj1chen"
+                }
+            ],
+            "description": "SDK для Новой Почты",
+            "keywords": [
+                "api",
+                "novaposhta",
+                "php",
+                "sdk"
+            ],
+            "time": "2018-06-15T01:08:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,23 @@
+﻿.wrapMaskPhone{
+    position: relative;
+}
+.wrapMaskPhone:after{
+    content:'';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 1px;
+    top: 2px;
+    opacity: 0;
+    transition: opacity .5s;
+}
+.wrapMaskPhone.on:after {opacity:1;
+    background: url(../../images/ua_mob_operator.jpg) no-repeat;
+    background-size: cover;
+}
+.wrapMaskPhone.on[op=live]:after{background-position-y: -121px;}
+.wrapMaskPhone.on[op=Beeline]:after{background-position-y: -90px;}
+.wrapMaskPhone.on[op=Utel]:after{background-position-y: -30px;}
+.wrapMaskPhone.on[op=peoplenet]:after{background-position-y: -150px;}
+.wrapMaskPhone.on[op=Jeans]:after,
+.wrapMaskPhone.on[op=mtc]:after{background-position-y: -60px;}

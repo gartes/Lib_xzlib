@@ -1,0 +1,24 @@
+.control-group.mdl-textfield input[type="email"]:focus ,
+.control-group.mdl-textfield input[type="text"]:focus,
+.control-group.mdl-textfield.mdl-textarea textarea:focus
+{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.control-group.mdl-textfield.mdl-textarea textarea {
+    height: auto;
+    resize: none;
+    width: 100%;
+}
+.control-group.mdl-textfield input{
+    width: 100%;
+}
+.mdl-textfield{
+    padding: 0;
+}
+.mdl-textfield label{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
